@@ -1,6 +1,14 @@
 # LLNL-ElCap
 Environment, build and affinity resources for El Capitan
 
+## Grab this repo and compile the HIP device defragmentation code
+
+```
+git clone
+
+``` git clone https://github.com/lammps/lammps.git```
+## 
+
 
 ## Compile HIP device defragmentation code
 
