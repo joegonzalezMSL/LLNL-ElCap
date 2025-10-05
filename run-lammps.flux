@@ -23,9 +23,8 @@ lmpIn=
 lmpLog=
 
 ## c program to defrag and optimize memory prior to run
-dexe="/g/g10/gonzalez133/bin/defrag.x"
+dexe="/g/g10/gonzalez133/bin/hip-dev-defrag.x"
 ## lammps executable with flags necessary to run in the KOKKOS environment. Must be compiled with KOKKOS package
-lexe="/g/g10/gonzalez133/bin/lmp_tuo_kokkos -k on g 1 -sf kk -pk kokkos newton on neigh half"
 lexe="/g/g10/gonzalez133/bin/lmp_elcapitan_kokkos_noapu -k on g 1 -sf kk -pk kokkos newton on neigh half"
 
 ## variable to be set iff memory defrag fails
